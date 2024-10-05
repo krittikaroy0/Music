@@ -1,0 +1,27 @@
+.container{
+    min-width: 360px;
+}
+/* customer feedback */
+.mp ul li{
+    list-style: none;
+    text-align: center;
+    & img{
+        list-style: none;
+        color: #fff;
+        background: teal;
+        padding: 10px;
+        margin-bottom: 5px;
+        border-radius: 100px;
+        transition: .5s linear;
+        &:hover{
+            cursor: pointer;
+            background: #007bff;
+        }
+    }
+    & h4{
+        color: #151414;
+        font-size: 18px;
+        text-decoration: none;
+    }
+    
+}
